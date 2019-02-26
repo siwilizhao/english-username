@@ -1,0 +1,32 @@
+{
+  "name": "english-username",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:siwilizhao/english-username.git",
+  "author": "siwilizhao",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^9.6.0",
+    "ioredis": "^4.6.2"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.5",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  },
+  "keywords": [
+    "english username",
+    "username",
+    "siwi",
+    "siwilizhao"
+  ],
+  "bugs": {
+    "url": "https://github.com/siwilizhao/english-username/issues"
+  },
+  "homepage": "https://github.com/siwilizhao/english-username#readme"
+}
